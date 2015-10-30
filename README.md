@@ -1,7 +1,7 @@
 # Nerdle.AutoConfig.Ninject
 
 
-````
+```csharp
 class MyModule : NinjectModule
 {
     public override void Load()
@@ -10,4 +10,4 @@ class MyModule : NinjectModule
         Bind<IMyConfigurationObject>().ToConfig();
     }
 }
-````
+```
