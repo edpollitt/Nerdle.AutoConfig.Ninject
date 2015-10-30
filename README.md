@@ -6,7 +6,7 @@ class MyModule : NinjectModule
 {
     public override void Load()
     {
-        // Load IMyConfigurationConfig from AutoConfig section
+        // Load IMyConfigurationObject from AutoConfig section
         Bind<IMyConfigurationObject>().ToConfig();
     }
 }
