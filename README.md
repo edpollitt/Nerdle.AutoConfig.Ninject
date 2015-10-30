@@ -2,7 +2,7 @@
 
 
 ````
-class ConfigurationModule : NinjectModule
+class MynModule : NinjectModule
 {
     public override void Load()
     {
