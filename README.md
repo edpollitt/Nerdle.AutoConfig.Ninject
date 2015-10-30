@@ -2,11 +2,12 @@
 
 
 ````
-class MynModule : NinjectModule
+class MyModule : NinjectModule
 {
     public override void Load()
     {
-        Bind<IMyThing>().ToConfig();
+        // Load IMyConfigurationConfig from AutoConfig section
+        Bind<IMyConfigurationObject>().ToConfig();
     }
 }
 ````
